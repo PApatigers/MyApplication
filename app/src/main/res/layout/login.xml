@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/zong"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="horizontal">
+
+    <!--<fragment-->
+        <!--android:name="com.example.black.myapplication.Titlefragment"-->
+        <!--android:id="@+id/title11"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="30dp"/>-->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/test"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow>
+            <TextView
+                android:id="@+id/user_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="用户名"/>
+
+
+        </TableRow>
+
+        <TableRow>
+            <EditText
+                android:id="@+id/user_edit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/re"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:text="反馈"/>
+        </TableRow>
+    </TableLayout>
+
+
+</LinearLayout>
